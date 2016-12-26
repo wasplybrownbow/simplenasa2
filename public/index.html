@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="APOD Slideshow"/>
+		<link	rel="stylesheet" 
+          type="text/css" 
+          href="style.css">
+	</head>
+	<body onload="initialize()">    
+
+		<div  id   ="explanationText" 
+          class="explanationText">.</div>
+ 		<div  id   ="explanationBG" 
+          class="explanationBG">.</div>
+    <div  class="menu-container">
+      <ul id="menu" class = "menu">
+        <li id="setIntervalTime15"  class="seconds">15</li>
+        <li id="setIntervalTime60"  class="seconds">60</li>
+        <li id="setIntervalTime90"  class="seconds">90</li>
+        <li id="setIntervalTime120" class="seconds">120</li>
+        <li id="intervalDisplay"    class="timerDisplay">Interval: 60 seconds</li>
+        <li id="timerDisplay"       class="timerDisplay"></li>
+        <li id="togglePause"        class="timerDisplay">Pause Slideshow</li>
+      </ul>
+    </div>
+	  <img     id="pix"></img>  
+        
+		<script  type="application/javascript" 
+        	     src="app.js"></script>
+		<script  type="application/javascript" 
+        	     src="datebuilder.js"></script>        	     
+
+	</body>
+</html>	
+
+
+
