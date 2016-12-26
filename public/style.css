@@ -104,7 +104,7 @@ li {
   
   color:  #111111; 
   background-color: none;
-  opacity: .9;
+  opacity: .95;
 
   transition: opacity 1s;
   -webkit-transition: opacity .1s; 
